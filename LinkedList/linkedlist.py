@@ -1,6 +1,6 @@
 class Node(object):
 
-    def __init__(self,data=None):
+    def __init__(self, data=None):
         self.data = data
         self.next_node = None
 
@@ -15,6 +15,25 @@ class Linked_list(object):
 
     def __init__(self):
         self.head = None
+
+    def print_reverse(self):
+        temp = self.head
+        result = []
+        while temp:
+            result.append(temp.data)
+            temp = temp.next_node
+        result.reverse()
+        for i in result:
+            print i,
+
+    # print len
+    def print_len(self):
+        temp = self.head
+        index = 1
+        while temp.next_node is not None:
+            index += 1
+            temp = temp.next_node
+        print index
 
     # print Linked List
     def print_list(self):
@@ -61,7 +80,7 @@ class Linked_list(object):
 
     def search_value(self, value):
         temp = self.head
-        index = 0
+        index = 1
         while temp:
             if temp.data is value:
                 print 'Value', temp.data, 'is at index', index
@@ -89,3 +108,23 @@ class Linked_list(object):
                 break
             index += 1
             temp = temp.next_node
+
+
+llist = Linked_list()
+
+llist.head = Node(10)
+second = Node(20)
+third = Node(30)
+
+llist.head.next_node = second
+second.next_node = third
+
+llist.prepend(5)
+
+llist.append(40)
+
+llist.print_list()
+
+print('\n')
+
+llist.print_reverse()
