@@ -108,23 +108,3 @@ class Linked_list(object):
                 break
             index += 1
             temp = temp.next_node
-
-
-llist = Linked_list()
-
-llist.head = Node(10)
-second = Node(20)
-third = Node(30)
-
-llist.head.next_node = second
-second.next_node = third
-
-llist.prepend(5)
-
-llist.append(40)
-
-llist.print_list()
-
-print('\n')
-
-llist.print_reverse()
