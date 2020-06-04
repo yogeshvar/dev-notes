@@ -8,14 +8,12 @@ hotels = []
 for i in range(0, len(restaurants)):
     if veganFriendly is restaurants[i][2]:
         hotels.append(i)
-        print 'vegan',i,restaurants[i]
+        print 'vegan', i, restaurants[i]
     elif maxPrice < restaurants[i][3]:
         hotels.append(i)
         print 'price', i, restaurants[i]
     elif maxDistance < restaurants[i][4]:
         hotels.append(i)
-        print 'distance',i, restaurants[i]
+        print 'distance', i, restaurants[i]
 
-
-x = sorted(hotels, key=lambda x: x[1], reverse=True)
-print x
+answer = sorted(hotels, key=lambda result: result[1], reverse=True)
