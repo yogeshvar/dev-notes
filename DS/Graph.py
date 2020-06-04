@@ -2,7 +2,7 @@ class Graph(object):
 
     def __init__(self, size):
         self.adj_matrix = []
-        for i in range(size):
+        for _ in range(size):
             self.adj_matrix.append([0 for i in range(size)])
         self.size = size
 
