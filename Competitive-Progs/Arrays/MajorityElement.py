@@ -6,6 +6,6 @@ ans = {}
 for i in uniq:
     ans[i] = nums.count(i)
 
-for value in ans:
-    if ans[value] > len(nums) / 2:
+for value, value_ in ans.items():
+    if value_ > len(nums) / 2:
         print('Majority Value', value)

@@ -1,9 +1,7 @@
 A = [1, 3, 2]
 
-if(A == sorted(A, reverse=True) or A == sorted(A)):
+if A in [sorted(A, reverse=True), sorted(A)]:
     print('True')
 print('False')
 
-if(False):
-    print('1')
 print('0')
