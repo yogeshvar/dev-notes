@@ -8,4 +8,4 @@ for i in uniq:
 
 for value in ans:
     if ans[value] > len(nums) / 2:
-        print 'Majority Value', value
+        print('Majority Value', value)
