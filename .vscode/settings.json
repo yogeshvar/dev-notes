@@ -7,5 +7,6 @@
     },
     "code-runner.executorMap": {
         "cpp": "cd $dir && g++ -std=c++11 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
