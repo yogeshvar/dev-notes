@@ -15,4 +15,7 @@ int main()
     aPointer = &a;
     cout << "Pointer points to " << aPointer << endl;
     cout << "Pointer contains " << *aPointer << endl;
+    *aPointer = 5;
+    cout << "Pointer points to " << aPointer << endl;
+    cout << "Pointer contains " << *aPointer << endl;
 }
