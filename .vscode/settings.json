@@ -3,7 +3,8 @@
     "python.linting.enabled": true,
     "files.associations": {
         "*.inc": "php",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "vector": "cpp"
     },
     "code-runner.executorMap": {
         "cpp": "cd $dir && g++ -std=c++11 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
