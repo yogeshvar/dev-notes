@@ -5,7 +5,11 @@
         "*.inc": "php",
         "ostream": "cpp",
         "vector": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "__tuple": "cpp",
+        "array": "cpp",
+        "iosfwd": "cpp",
+        "algorithm": "cpp"
     },
     "code-runner.executorMap": {
         "cpp": "cd $dir && g++ -std=c++11 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
