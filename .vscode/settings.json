@@ -9,9 +9,14 @@
     "cpp": "cd $dir && g++ -std=c++11 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
   },
   "C_Cpp.errorSquiggles": "Disabled",
-  "editor.fontFamily": "monospace",
-  "terminal.integrated.fontFamily": "monospace",
+  "editor.fontFamily": "Hack",
+  "terminal.integrated.fontFamily": "Fira Code",
 
   // Controls the font size.
-  "editor.fontSize": 13
+  "editor.fontSize": 13,
+  "editor.tabCompletion": "on",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "/Users/mags/Downloads/junit-platform-console-standalone-1.7.2.jar"
+  ]
 }
