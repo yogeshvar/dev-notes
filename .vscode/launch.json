@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch SingleLinkedList",
+      "request": "launch",
+      "mainClass": "udemyCourse.SingleLinkedList",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch MiddleFunction",
       "request": "launch",
       "mainClass": "udemyCourse.MiddleFunction",
