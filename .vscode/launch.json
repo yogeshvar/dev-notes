@@ -1,92 +1,169 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch IsUnique",
-            "request": "launch",
-            "mainClass": "InterviewProbs.IsUnique",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "type": "java",
-            "name": "Launch RecursiveRange",
-            "request": "launch",
-            "mainClass": "udemyCourse.RecursiveRange",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "type": "java",
-            "name": "Launch ProductOfArrays",
-            "request": "launch",
-            "mainClass": "udemyCourse.ProductOfArrays",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "type": "java",
-            "name": "Launch Factorial",
-            "request": "launch",
-            "mainClass": "udemyCourse.Factorial",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "type": "java",
-            "name": "Launch GCD",
-            "request": "launch",
-            "mainClass": "udemyCourse.GCD",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "type": "java",
-            "name": "Launch Powers",
-            "request": "launch",
-            "mainClass": "udemyCourse.Powers",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "type": "java",
-            "name": "Launch SumDigits",
-            "request": "launch",
-            "mainClass": "udemyCourse.SumDigits",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "type": "java",
-            "name": "Launch Fibonacci",
-            "request": "launch",
-            "mainClass": "udemyCourse.Fibonacci",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "type": "java",
-            "name": "Launch Recursion",
-            "request": "launch",
-            "mainClass": "udemyCourse.Recursion",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "type": "java",
-            "name": "Launch Polymorphism",
-            "request": "launch",
-            "mainClass": "LearnJava.Polymorphism",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "type": "java",
-            "name": "Launch QuickStart",
-            "request": "launch",
-            "mainClass": "LearnJava.QuickStart",
-            "projectName": "just-stuff_d9c50727"
-        },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch MiddleFunction",
+      "request": "launch",
+      "mainClass": "udemyCourse.MiddleFunction",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "udemyCourse.Main",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Arrays",
+      "request": "launch",
+      "mainClass": "udemyCourse.Arrays",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Arrays",
+      "request": "launch",
+      "mainClass": "Arrays",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch MaxProdInArray",
+      "request": "launch",
+      "mainClass": "LeetCode.MaxProdInArray",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch FindNoInArray",
+      "request": "launch",
+      "mainClass": "LeetCode.FindNoInArray",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoSums",
+      "request": "launch",
+      "mainClass": "LeetCode.TwoSums",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoSums",
+      "request": "launch",
+      "mainClass": "TwoSums",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringsFunctions",
+      "request": "launch",
+      "mainClass": "udemyCourse.StringsFunctions",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringsFunctions",
+      "request": "launch",
+      "mainClass": "StringsFunctions",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch IsUnique",
+      "request": "launch",
+      "mainClass": "InterviewProbs.IsUnique",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch RecursiveRange",
+      "request": "launch",
+      "mainClass": "udemyCourse.RecursiveRange",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch ProductOfArrays",
+      "request": "launch",
+      "mainClass": "udemyCourse.ProductOfArrays",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Factorial",
+      "request": "launch",
+      "mainClass": "udemyCourse.Factorial",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch GCD",
+      "request": "launch",
+      "mainClass": "udemyCourse.GCD",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Powers",
+      "request": "launch",
+      "mainClass": "udemyCourse.Powers",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch SumDigits",
+      "request": "launch",
+      "mainClass": "udemyCourse.SumDigits",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fibonacci",
+      "request": "launch",
+      "mainClass": "udemyCourse.Fibonacci",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Recursion",
+      "request": "launch",
+      "mainClass": "udemyCourse.Recursion",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Polymorphism",
+      "request": "launch",
+      "mainClass": "LearnJava.Polymorphism",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch QuickStart",
+      "request": "launch",
+      "mainClass": "LearnJava.QuickStart",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    }
+  ]
 }
