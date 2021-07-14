@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch DoubleLinkedList",
+      "request": "launch",
+      "mainClass": "udemyCourse.DoubleLinkedList",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch CircularLinkedList",
+      "request": "launch",
+      "mainClass": "udemyCourse.CircularLinkedList",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch SingleLinkedList",
       "request": "launch",
       "mainClass": "udemyCourse.SingleLinkedList",
