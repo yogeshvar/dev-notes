@@ -18,5 +18,6 @@
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
     "/Users/mags/Downloads/junit-platform-console-standalone-1.7.2.jar"
-  ]
+  ],
+  "java.project.sourcePaths": ["DS/Java", "COMPSCI-7007"]
 }

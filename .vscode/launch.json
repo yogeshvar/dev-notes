@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch UnsortedSequence",
+      "request": "launch",
+      "mainClass": "UnsortedSequence",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch FunnyFence",
+      "request": "launch",
+      "mainClass": "FunnyFence",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch AimToTen",
+      "request": "launch",
+      "mainClass": "AimToTen",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch SelectionSort",
       "request": "launch",
       "mainClass": "udemyCourse.Sorting.SelectionSort",
