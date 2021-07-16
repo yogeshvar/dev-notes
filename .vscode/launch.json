@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch SelectionSort",
+      "request": "launch",
+      "mainClass": "udemyCourse.Sorting.SelectionSort",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch BubbleSort",
+      "request": "launch",
+      "mainClass": "udemyCourse.Sorting.BubbleSort",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch StacksWithLinkedList",
+      "request": "launch",
+      "mainClass": "udemyCourse.StacksWithLinkedList",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch StacksWithArr",
+      "request": "launch",
+      "mainClass": "udemyCourse.StacksWithArr",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch CircularDoubleLinkedList",
+      "request": "launch",
+      "mainClass": "udemyCourse.CircularDoubleLinkedList",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch DoubleLinkedList",
       "request": "launch",
       "mainClass": "udemyCourse.DoubleLinkedList",

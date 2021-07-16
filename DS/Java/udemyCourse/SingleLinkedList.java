@@ -56,7 +56,7 @@ public class SingleLinkedList {
         } else {
             Node tempHead = head;
             while (tempHead != null) {
-                System.out.print(tempHead.value);
+                System.out.print(tempHead.value + "->");
                 tempHead = tempHead.next;
             }
             System.out.println("");
