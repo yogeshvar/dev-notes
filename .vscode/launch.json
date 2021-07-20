@@ -6,6 +6,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch HangManHelper",
+      "request": "launch",
+      "mainClass": "StringManipulations.HangManHelper",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch MathOperations",
+      "request": "launch",
+      "mainClass": "LearnJava.MathOperations",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch MathOperations",
+      "request": "launch",
+      "mainClass": "MathOperations",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch MergeSort",
+      "request": "launch",
+      "mainClass": "udemyCourse.Sorting.MergeSort",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch BucketSort",
+      "request": "launch",
+      "mainClass": "udemyCourse.Sorting.BucketSort",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch InsertionSort",
+      "request": "launch",
+      "mainClass": "udemyCourse.Sorting.InsertionSort",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch DirectChaining",
+      "request": "launch",
+      "mainClass": "udemyCourse.DirectChaining",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Trie",
+      "request": "launch",
+      "mainClass": "udemyCourse.Trie",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch BinaryHeap",
+      "request": "launch",
+      "mainClass": "udemyCourse.BinaryHeap",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch BinarySearchTree",
+      "request": "launch",
+      "mainClass": "udemyCourse.BinarySearchTree",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch BinaryTree",
+      "request": "launch",
+      "mainClass": "udemyCourse.BinaryTree",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch UnsortedSequence",
       "request": "launch",
       "mainClass": "UnsortedSequence",
