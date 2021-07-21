@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch HouseNumbering",
+      "request": "launch",
+      "mainClass": "HouseNumbering",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch BallotCounting",
+      "request": "launch",
+      "mainClass": "BallotCounting",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch MarriageAndTravelling",
+      "request": "launch",
+      "mainClass": "MarriageAndTravelling",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch ExploringRobots",
+      "request": "launch",
+      "mainClass": "ExploringRobots",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch FriendlySequence",
+      "request": "launch",
+      "mainClass": "FriendlySequence",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch SyllableCountEstimator",
+      "request": "launch",
+      "mainClass": "StringManipulations.SyllableCountEstimator",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch QuickSort",
+      "request": "launch",
+      "mainClass": "udemyCourse.Sorting.QuickSort",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch HangManHelper",
       "request": "launch",
       "mainClass": "StringManipulations.HangManHelper",

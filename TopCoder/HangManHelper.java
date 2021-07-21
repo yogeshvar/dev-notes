@@ -1,4 +1,4 @@
-package StringManipulations;
+
 
 public class HangManHelper {
 
