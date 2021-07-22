@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch SudokuTypo",
+      "request": "launch",
+      "mainClass": "SudokuTypo",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch HouseNumbering",
       "request": "launch",
       "mainClass": "HouseNumbering",
