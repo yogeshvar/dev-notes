@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch IOIGuaranteedPlace",
+      "request": "launch",
+      "mainClass": "IOIGuaranteedPlace",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch CoolPairsEasy",
+      "request": "launch",
+      "mainClass": "CoolPairsEasy",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch BuyOneGetOneFree",
+      "request": "launch",
+      "mainClass": "BuyOneGetOneFree",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch KnapSack",
+      "request": "launch",
+      "mainClass": "KnapSack",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch SudokuTypo",
       "request": "launch",
       "mainClass": "SudokuTypo",

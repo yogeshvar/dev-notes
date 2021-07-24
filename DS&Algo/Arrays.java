@@ -66,4 +66,8 @@ public class Arrays {
     public static char[] deepToString(MultiDimArrays multiDimArrays) {
         return null;
     }
+
+    public static String toString(int[] finalScores) {
+        return null;
+    }
 }
