@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch GetAccepted",
+      "request": "launch",
+      "mainClass": "GetAccepted",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch NamingConvention",
+      "request": "launch",
+      "mainClass": "NamingConvention",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch CompletelyDifferentString",
+      "request": "launch",
+      "mainClass": "CompletelyDifferentString",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch IOIGuaranteedPlace",
       "request": "launch",
       "mainClass": "IOIGuaranteedPlace",
