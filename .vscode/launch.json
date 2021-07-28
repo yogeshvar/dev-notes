@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Graph",
+      "request": "launch",
+      "mainClass": "Graph",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch MaximumBalances",
       "request": "launch",
       "mainClass": "MaximumBalances",
