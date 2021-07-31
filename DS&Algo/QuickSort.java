@@ -1,4 +1,3 @@
-package udemyCourse.Sorting;
 
 public class QuickSort {
 

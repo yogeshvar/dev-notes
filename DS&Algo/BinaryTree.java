@@ -1,4 +1,3 @@
-package udemyCourse;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -139,24 +138,24 @@ class BinaryTreeLL {
     }
 
     public void deleteNode(String key) {
-        Queue<BinaryNode> queue = new LinkedList<BinaryNode>();
-        queue.add(root);
-        while (!queue.isEmpty()) {
-            BinaryNode node = queue.remove();
-            if (node.value == key) {
-                node.value = getDeepestNode().value;
-                deleteDeepestNode();
-                System.out.println("Deleted Node");
-                return;
-            } else {
-                if (node.left != null) {
-                    queue.add(node.left);
-                }
-                if (node.right != null) {
-                    queue.add(node.right);
-                }
-            }
-        }
+        // Queue<BinaryNode> queue = new LinkedList<BinaryNode>();
+        // queue.add(root);
+        // while (!queue.isEmpty()) {
+        // BinaryNode node = queue.remove();
+        // if (node.value == key) {
+        // node.value = getDeepestNode().value;
+        // deleteDeepestNode();
+        // System.out.println("Deleted Node");
+        // return;
+        // } else {
+        // if (node.left != null) {
+        // queue.add(node.left);
+        // }
+        // if (node.right != null) {
+        // queue.add(node.right);
+        // }
+        // }
+        // }
     }
 
 }

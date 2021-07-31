@@ -19,18 +19,6 @@ int main()
     increment(&a);
     increase(b);
 
-    /*
-    int &ref = a;
-    ref = b;
-    a = 5, b = 5
-
-    int *ref = &a;
-    *ref = 2;
-    ref = &b;
-    *ref = 1;
-    a = 2, b = 1 
-    */
-
     std::cout << b << std::endl;
     std::cout << a << std::endl;
 }

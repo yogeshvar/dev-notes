@@ -1,4 +1,3 @@
-package udemyCourse;
 
 public class CircularLinkedList {
     public Node head;

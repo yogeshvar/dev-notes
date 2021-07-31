@@ -1,4 +1,3 @@
-package udemyCourse;
 
 class Powers {
     public static void main(String[] args) {

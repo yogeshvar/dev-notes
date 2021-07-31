@@ -1,4 +1,3 @@
-package udemyCourse;
 
 class StacksWithArr {
     int[] arr;

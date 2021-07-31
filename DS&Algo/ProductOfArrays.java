@@ -1,4 +1,3 @@
-package udemyCourse;
 
 public class ProductOfArrays {
     public static void main(String[] args) {

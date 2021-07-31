@@ -1,4 +1,3 @@
-package udemyCourse;
 
 public class Queues {
     SingleLinkedList singleLinkedList;

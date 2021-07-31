@@ -1,4 +1,3 @@
-package udemyCourse.Sorting;
 
 public class MergeSort {
 
@@ -47,7 +46,7 @@ public class MergeSort {
     public static void main(String[] args) {
         MergeSort mergeSort = new MergeSort();
         int arr[] = { 38, 27, 43, 3, 9, 82, 10 };
-        mergeSort.mergeSort(arr, 0, arr.length-1);
+        mergeSort.mergeSort(arr, 0, arr.length - 1);
         mergeSort.printArray(arr);
     }
 

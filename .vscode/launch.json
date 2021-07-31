@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch PlusOneGame",
+      "request": "launch",
+      "mainClass": "PlusOneGame",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch CombiningSlimes",
+      "request": "launch",
+      "mainClass": "CombiningSlimes",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch CopyingHomework",
+      "request": "launch",
+      "mainClass": "CopyingHomework",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch Graph",
       "request": "launch",
       "mainClass": "Graph",

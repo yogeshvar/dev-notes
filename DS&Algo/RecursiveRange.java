@@ -1,4 +1,3 @@
-package udemyCourse;
 
 public class RecursiveRange {
     public static void main(String[] args) {

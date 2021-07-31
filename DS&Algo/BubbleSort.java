@@ -1,4 +1,3 @@
-package udemyCourse.Sorting;
 
 import java.util.Arrays;
 

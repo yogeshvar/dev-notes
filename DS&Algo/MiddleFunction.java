@@ -1,5 +1,3 @@
-package udemyCourse;
-
 import java.util.Arrays;
 
 public class MiddleFunction {

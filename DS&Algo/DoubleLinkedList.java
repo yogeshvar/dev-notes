@@ -1,4 +1,3 @@
-package udemyCourse;
 
 class DoubleNode {
     public int value;

@@ -1,4 +1,3 @@
-package udemyCourse;
 
 public class QueueArr {
     int[] arr;
@@ -50,7 +49,7 @@ public class QueueArr {
             if (start > top) {
                 start = top = -1;
             }
-            return result;  
+            return result;
         }
     }
 }

@@ -1,4 +1,4 @@
-package udemyCourse;
+
 
 public class Arrays {
     int arr[] = null;

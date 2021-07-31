@@ -1,5 +1,4 @@
 public class FunnyFence {
-
     public static int getLength(String s) {
         int maxLength = -1;
         int length = 1;

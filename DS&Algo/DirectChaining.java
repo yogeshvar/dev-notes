@@ -1,4 +1,3 @@
-package udemyCourse;
 
 import java.util.LinkedList;
 

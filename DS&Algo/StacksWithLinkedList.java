@@ -1,4 +1,3 @@
-package udemyCourse;
 
 public class StacksWithLinkedList {
     SingleLinkedList singleLinkedList;
