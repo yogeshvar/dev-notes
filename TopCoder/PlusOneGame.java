@@ -6,13 +6,15 @@ public class PlusOneGame {
     public static String getOrder(String s) {
         char cChar[] = s.toCharArray();
         int count = 0;
+        // CardNumbers: Array
         ArrayList<Integer> cardNumbers = new ArrayList<Integer>();
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '+')
-                ++count;
+                ++count; // plus characters count.
             else
-                cardNumbers.add(s.charAt(i) - '0');
+                cardNumbers.add(s.charAt(i) - '0'); // penalty count.
         }
+        System.out.println("" + cardNumbers.toString());
         if (count == 0) {
             Arrays.sort(cChar);
             return String.valueOf(cChar);
@@ -20,6 +22,7 @@ public class PlusOneGame {
             return s;
         } else {
             Collections.sort(cardNumbers);
+            System.out.println("" + cardNumbers.toString());
             StringBuilder stringBuilder = new StringBuilder("");
             int counter = 0;
             for (int i = 0; i < cardNumbers.size(); i++) {
@@ -41,7 +44,7 @@ public class PlusOneGame {
     }
 
     public static void main(String[] args) {
-        String s = "++++4++++200++2++1+6++++++";
+        String s = "++512+++431+++++00";
         System.out.println("Result : " + getOrder(s));
     }
 }

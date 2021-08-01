@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ThePhantomMenace",
+      "request": "launch",
+      "mainClass": "ThePhantomMenace",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch PlusOneGame",
       "request": "launch",
       "mainClass": "PlusOneGame",
