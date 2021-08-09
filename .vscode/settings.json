@@ -85,6 +85,6 @@
     "lib/**/*.jar",
     "/Users/mags/Downloads/junit-platform-console-standalone-1.7.2.jar"
   ],
-  "java.project.sourcePaths": ["TopCoder", "DS&Algo"],
+  "java.project.sourcePaths": ["TopCoder", "DS&Algo", "Learning/Java"],
   "sqltools.connections": []
 }

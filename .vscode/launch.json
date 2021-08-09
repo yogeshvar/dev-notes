@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch AttributeMatrix",
+      "request": "launch",
+      "mainClass": "AttributeMatrix",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch FrogJumps",
+      "request": "launch",
+      "mainClass": "FrogJumps",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch AgeEncoding",
+      "request": "launch",
+      "mainClass": "AgeEncoding",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch GalleryIllumination",
+      "request": "launch",
+      "mainClass": "GalleryIllumination",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch ChristmasCrackerHappiness",
+      "request": "launch",
+      "mainClass": "ChristmasCrackerHappiness",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch ThePhantomMenace",
       "request": "launch",
       "mainClass": "ThePhantomMenace",
