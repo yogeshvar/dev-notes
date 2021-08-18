@@ -1,5 +1,3 @@
-package LearnJava;
-
 class Multiple {
     static int multiply(int a, int b) {
         return a * b;

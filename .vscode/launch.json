@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch UpDownHiking",
+      "request": "launch",
+      "mainClass": "UpDownHiking",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch LittleElephantAndBallsAgain",
+      "request": "launch",
+      "mainClass": "LittleElephantAndBallsAgain",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch BobTheBuilder",
+      "request": "launch",
+      "mainClass": "BobTheBuilder",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch OpenAllHours",
+      "request": "launch",
+      "mainClass": "OpenAllHours",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch CutTheCube",
+      "request": "launch",
+      "mainClass": "CutTheCube",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch TryingJava",
+      "request": "launch",
+      "mainClass": "TryingJava",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch TapMeasure",
+      "request": "launch",
+      "mainClass": "TapMeasure",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch AttributeMatrix",
       "request": "launch",
       "mainClass": "AttributeMatrix",
