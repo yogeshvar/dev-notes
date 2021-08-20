@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Truckloads",
+      "request": "launch",
+      "mainClass": "Truckloads",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch DerivativeSequence",
+      "request": "launch",
+      "mainClass": "DerivativeSequence",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch MNS",
+      "request": "launch",
+      "mainClass": "MNS",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch TransposeColors",
+      "request": "launch",
+      "mainClass": "TransposeColors",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch GCD",
+      "request": "launch",
+      "mainClass": "GCD",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch DistinctStrings",
+      "request": "launch",
+      "mainClass": "DistinctStrings",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch UpDownHiking",
       "request": "launch",
       "mainClass": "UpDownHiking",
