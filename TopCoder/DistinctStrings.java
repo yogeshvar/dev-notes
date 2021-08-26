@@ -14,11 +14,15 @@ public class DistinctStrings {
             return s.stream().limit(N).toArray(String[]::new);
         } else {
             for (int i = 1; i < L; i++) {
-                s.add(letters.charAt(0) + letters.substring(i, L + i - 1));
+                s.add(letters.charAt(0) + letters.substring(i));
             }
             StringBuilder sb = new StringBuilder(letters);
-            sb.deleteCharAt(0);
-            generateRecursive(L, sb.toString(), N);
+            if (letters.length() == N) {
+                generateRecursive(L, letters, N);
+            } else {
+                sb.deleteCharAt(0);
+                generateRecursive(L, sb.toString(), N);
+            }
         }
         return s.stream().limit(N).toArray(String[]::new);
     }
@@ -44,6 +48,6 @@ public class DistinctStrings {
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(generate(5, "qwertyuiopasdfghjklzxcvbnm", 10)));
-        System.out.println(Arrays.toString(generateRecursive(5, "qwertyuiopasdfghjklzxcvbnm", 10)));
+        System.out.println(Arrays.toString(generateRecursive(5, "abcde", 10)));
     }
 }
