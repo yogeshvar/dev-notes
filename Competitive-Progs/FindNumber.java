@@ -1,5 +1,3 @@
-package LeetCode;
-
 class FindNumber {
     public int searchInArray(int[] intArray, int valueToSearch) {
         for (int i = 0; i < intArray.length; i++) {

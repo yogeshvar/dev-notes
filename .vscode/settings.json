@@ -89,7 +89,8 @@
     "TopCoder",
     "Learning/Java",
     "DS&Algo",
-    "Competitive-Progs"
+    "Competitive-Progs",
+    "LeetCode"
   ],
   "sqltools.connections": []
 }

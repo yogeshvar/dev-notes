@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ContainerWithMostWater",
+      "request": "launch",
+      "mainClass": "ContainerWithMostWater",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch Palindromize2",
+      "request": "launch",
+      "mainClass": "Palindromize2",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch ReversePairs",
+      "request": "launch",
+      "mainClass": "ReversePairs",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch SpireAttack",
+      "request": "launch",
+      "mainClass": "SpireAttack",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch ConsistencyGraph",
       "request": "launch",
       "mainClass": "ConsistencyGraph",
