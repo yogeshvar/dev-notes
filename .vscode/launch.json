@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch IsUnique",
+      "request": "launch",
+      "mainClass": "IsUnique",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch IsUniquev2",
+      "request": "launch",
+      "mainClass": "IsUniquev2",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch DuplicateZeros",
+      "request": "launch",
+      "mainClass": "Array101.DuplicateZeros",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch SortedSquares",
+      "request": "launch",
+      "mainClass": "Array101.SortedSquares",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch FindEvenNos",
+      "request": "launch",
+      "mainClass": "Array101.FindEvenNos",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch MaxCons",
+      "request": "launch",
+      "mainClass": "Array101.MaxCons",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch ContainerWithMostWater",
       "request": "launch",
       "mainClass": "ContainerWithMostWater",

@@ -87,10 +87,11 @@
   ],
   "java.project.sourcePaths": [
     "TopCoder",
+    "LeetCode",
     "Learning/Java",
     "DS&Algo",
     "Competitive-Progs",
-    "LeetCode"
+    "CrackingCodingInterview"
   ],
   "sqltools.connections": []
 }
