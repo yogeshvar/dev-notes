@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch URLify",
+      "request": "launch",
+      "mainClass": "URLify",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch CheckPerm",
+      "request": "launch",
+      "mainClass": "CheckPerm",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
       "name": "Launch IsUnique",
       "request": "launch",
       "mainClass": "IsUnique",

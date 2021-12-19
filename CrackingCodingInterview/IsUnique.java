@@ -1,6 +1,11 @@
 import java.util.Arrays;
 import java.util.Hashtable;
 
+/**
+ * Chapter 1: Array and Strings
+ * Interview Questions: 1.1
+ */
+
 class IsUnique {
     public static void main(String[] args) {
         char[] str = { 'm', 'a', 'g', 'i', 'e' };
