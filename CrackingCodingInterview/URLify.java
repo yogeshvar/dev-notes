@@ -1,5 +1,8 @@
 public class URLify {
-
+    /**
+     * Chapter 1: Array and Strings
+     * Interview Questions: 1.3
+     */
     public static void main(String[] args) {
         String url = "Mr John Smith    ";
         int count = 13;
@@ -8,4 +11,3 @@ public class URLify {
         System.out.println(url);
     }
 }
-    

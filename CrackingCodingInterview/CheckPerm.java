@@ -1,5 +1,10 @@
 import java.util.Arrays;
 
+/**
+ * Chapter 1: Array and Strings
+ * Interview Questions: 1.2
+ */
+
 public class CheckPerm {
 
     public static Boolean checkPerm(String a, String b) {
