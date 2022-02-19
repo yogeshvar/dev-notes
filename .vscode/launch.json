@@ -5,6 +5,27 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Launch PlusOne",
+      "request": "launch",
+      "mainClass": "PlusOne",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
+      "type": "java",
+      "name": "Launch ValidMountainArray",
+      "request": "launch",
+      "mainClass": "ValidMountainArray",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
       "type": "java",
       "name": "Launch PalindromePerm",
       "request": "launch",
