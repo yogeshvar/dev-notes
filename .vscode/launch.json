@@ -5,6 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch MinCoins",
+      "request": "launch",
+      "mainClass": "MinCoins",
+      "projectName": "just-stuff_d9c50727"
+    },
+    {
       "name": "Python: Current File",
       "type": "python",
       "request": "launch",
