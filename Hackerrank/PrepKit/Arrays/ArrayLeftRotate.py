@@ -1,7 +1,3 @@
-a = 5
-n = 11
-
-
 def leftRotate(a, d):
     s = list(range(1, a+1))
     if len(s) == d:
@@ -13,5 +9,5 @@ def leftRotate(a, d):
     return all_combinations[d % len(s)]
 
 
-ans = leftRotate(a, n)
+ans = leftRotate(5, 11)
 print(ans)

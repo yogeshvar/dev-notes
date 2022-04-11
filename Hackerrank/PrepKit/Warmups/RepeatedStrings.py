@@ -1,12 +1,5 @@
-s = 'abcac'
-n = 10
-
-"""
-Not a good solution. Runtime error cause it's too long.
-"""
-
-
-def repeatedString(s, n):
+# Not a good solution. Runtime error cause it's too long.
+def repeated_a(s, n):
     repeated_string = s
     if s == 'a':
         return n
@@ -24,7 +17,7 @@ def repeatedString(s, n):
     return count
 
 
-def repeatedString2(s, n):
+def repeated_a2(s, n):
     count = 0
     for i in range(n):
         if s[i % len(s)] == 'a':
@@ -32,11 +25,11 @@ def repeatedString2(s, n):
     return count
 
 
-def repeatedString3(s, n):
+def repeated_a3(s, n):
     return s.count('a') * (n // len(s)) + s[:n % len(s)].count('a')
 
 
-ans2 = repeatedString2(s, n)
-ans3 = repeatedString3(s, n)
+ans2 = repeated_a2('abcac', 11)
+ans3 = repeated_a3('abcac', 11)
 print(ans2)
 print(ans3)
