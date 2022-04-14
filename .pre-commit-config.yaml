@@ -1,7 +1,0 @@
-repos:
-- repo: local 
-  hooks: 
-  - id: enc-journals
-    name: Encrypt Journals Bash Script
-    entry: ./Fun/journalscripts/runscript.sh
-    language: script
