@@ -1,4 +1,11 @@
 entries:
+  - title: random dev notes
+    post_list: 
+      category: dev-notes
+      limit: 10
+      show_more: true
+      show_more_text: More random notes...
+      show_more_url: random.html
   - title: medium posts
     post_list:
       limit: 5
