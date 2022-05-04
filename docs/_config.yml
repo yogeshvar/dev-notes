@@ -27,7 +27,7 @@ twitter_username: maggieyogeshvar
 github_username:  yogeshvar
 
 # Build settings
-theme: no-style-please
+remote_theme: riggraz/no-style-please
 theme_config:
   appearance: "dark"
   back_home_text: "cd .." 
