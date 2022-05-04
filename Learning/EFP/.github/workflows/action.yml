@@ -1,0 +1,47 @@
+name: EFP CI
+
+on: 
+  push:
+    branches: 
+    - master
+    - release/*
+    - fix/*
+  pull_request: 
+    branches: 
+    - master
+    - fix/* 
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: npm install
+      run: npm install 
+    - name: npm lint
+      run: npm run lint
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Login to Registry
+      uses: actions/docker/cli@master
+      with: 
+        args: login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+    - name: Build with tag
+      uses: actions/docker/cli@master
+      with: 
+        args: build -t yogeshvar/efp .
+    - name: Publish to Registry
+      uses: actions/docker/cli@master
+      with:
+        args: push yogeshvar/efp:latest
+    - name: Logout
+      run: docker logout
