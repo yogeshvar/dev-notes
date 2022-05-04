@@ -21,10 +21,11 @@
 title: Yogi's Notion
 email: yogeshvar@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
-baseurl: https://yogis-notion.dev # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://yogis-notion.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: maggieyogeshvar
 github_username:  yogeshvar
+permalink: /:slug.html
 
 # Build settings
 remote_theme: riggraz/no-style-please
@@ -32,6 +33,10 @@ theme_config:
   appearance: "dark"
   back_home_text: "cd .." 
   date_format: "%Y-%m-%d"
+
+sass: 
+    style: compressed
+
 plugins:
   - jekyll-feed
 
