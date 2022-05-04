@@ -1,0 +1,298 @@
+Time taken to process data:  56.8957359790802
+Time taken for Model:  64.059
+{'contractions': 0,
+ 'lemmatization': 0,
+ 'punctuation_removal': 0,
+ 'stemming': 0,
+ 'stop_words_removal': 0}
+F1-Score:  0.814551679863043
+===============================================
+Time taken to process data:  85.21997690200806
+Time taken for Model:  62.081
+{'contractions': 0,
+ 'lemmatization': 1,
+ 'punctuation_removal': 0,
+ 'stemming': 0,
+ 'stop_words_removal': 0}
+F1-Score:  0.8126635493972804
+===============================================
+Time taken to process data:  59.68700098991394
+Time taken for Model:  35.107
+{'contractions': 0,
+ 'lemmatization': 0,
+ 'punctuation_removal': 1,
+ 'stemming': 0,
+ 'stop_words_removal': 0}
+F1-Score:  0.8025771625092508
+===============================================
+Time taken to process data:  85.33636021614075
+Time taken for Model:  35.072
+{'contractions': 0,
+ 'lemmatization': 1,
+ 'punctuation_removal': 1,
+ 'stemming': 0,
+ 'stop_words_removal': 0}
+F1-Score:  0.8023002526792715
+===============================================
+Time taken to process data:  55.29657983779907
+Time taken for Model:  35.187
+{'contractions': 1,
+ 'lemmatization': 0,
+ 'punctuation_removal': 0,
+ 'stemming': 0,
+ 'stop_words_removal': 0}
+F1-Score:  0.8069569720771654
+===============================================
+Time taken to process data:  81.39495491981506
+Time taken for Model:  34.95
+{'contractions': 1,
+ 'lemmatization': 1,
+ 'punctuation_removal': 0,
+ 'stemming': 0,
+ 'stop_words_removal': 0}
+F1-Score:  0.8157692635890436
+===============================================
+Time taken to process data:  61.01150584220886
+Time taken for Model:  35.478
+{'contractions': 1,
+ 'lemmatization': 0,
+ 'punctuation_removal': 1,
+ 'stemming': 0,
+ 'stop_words_removal': 0}
+F1-Score:  0.8091104426299958 
+===============================================
+Time taken to process data:  87.08315300941467
+Time taken for Model:  36.695
+{'contractions': 1,
+ 'lemmatization': 1,
+ 'punctuation_removal': 1,
+ 'stemming': 0,
+ 'stop_words_removal': 0}
+F1-Score:  0.8081382818224924 
+===============================================
+Time taken to process data:  79.82212901115417
+Time taken for Model:  24.899
+{'contractions': 0,
+ 'lemmatization': 0,
+ 'punctuation_removal': 0,
+ 'stemming': 0,
+ 'stop_words_removal': 1}
+F1-Score:  0.8343136442713941 
+===============================================
+Time taken to process data:  87.15707802772522
+Time taken for Model:  25.18
+{'contractions': 0,
+ 'lemmatization': 1,
+ 'punctuation_removal': 0,
+ 'stemming': 0,
+ 'stop_words_removal': 1}
+F1-Score:  0.8330850711684873 
+===============================================
+Time taken to process data:  71.67551898956299
+Time taken for Model:  24.52
+{'contractions': 0,
+ 'lemmatization': 0,
+ 'punctuation_removal': 1,
+ 'stemming': 0,
+ 'stop_words_removal': 1}
+F1-Score:  0.8233050847457628 
+===============================================
+Time taken to process data:  89.31663703918457
+Time taken for Model:  24.246
+{'contractions': 0,
+ 'lemmatization': 1,
+ 'punctuation_removal': 1,
+ 'stemming': 0,
+ 'stop_words_removal': 1}
+F1-Score:  0.8220267298257486 
+===============================================
+Time taken to process data:  69.00945615768433
+Time taken for Model:  25.282
+{'contractions': 1,
+ 'lemmatization': 0,
+ 'punctuation_removal': 0,
+ 'stemming': 0,
+ 'stop_words_removal': 1}
+F1-Score:  0.8370572658060246 
+===============================================
+Time taken to process data:  86.39295315742493
+Time taken for Model:  25.478
+{'contractions': 1,
+ 'lemmatization': 1,
+ 'punctuation_removal': 0,
+ 'stemming': 0,
+ 'stop_words_removal': 1}
+F1-Score:  0.83602561454245 
+===============================================
+Time taken to process data:  76.12794184684753
+Time taken for Model:  25.132
+{'contractions': 1,
+ 'lemmatization': 0,
+ 'punctuation_removal': 1,
+ 'stemming': 0,
+ 'stop_words_removal': 1}
+F1-Score:  0.8263432424409483 
+===============================================
+Time taken to process data:  91.221608877182
+Time taken for Model:  24.204
+{'contractions': 1,
+ 'lemmatization': 1,
+ 'punctuation_removal': 1,
+ 'stemming': 0,
+ 'stop_words_removal': 1}
+F1-Score:  0.8225122902186811
+===============================================
+Time taken to process data:  125.30308198928833
+Time taken for Model:  26.469
+{'contractions': 1,
+ 'lemmatization': 0,
+ 'punctuation_removal': 1,
+ 'stemming': 0,
+ 'stop_words_removal': 1}
+F1-Score:  0.8277606779946873
+====================================================
+Time taken to process data:  96.75234723091125
+Time taken for Model:  24.812
+F1-Score with Config.: 
+{'contractions': 1,
+ 'lemmatization': 1,
+ 'punctuation_removal': 1,
+ 'stemming': 0,
+ 'stop_words_removal': 1}
+F1-Score:  0.8267349594861245
+====================================================
+Time taken to process data:  431.5535087585449
+Time taken for Model:  59.539
+{'contractions': 0,
+ 'lemmatization': 1,
+ 'punctuation_removal': 0,
+ 'stemming': 1,
+ 'stop_words_removal': 0}
+F1-Score: 0.8087337746067222
+=====================================================
+Time taken to process data:  235.31837511062622
+Time taken for Model:  31.936
+{'contractions': 0,
+ 'lemmatization': 0,
+ 'punctuation_removal': 1,
+ 'stemming': 1,
+ 'stop_words_removal': 0}
+F1-Score: 0.7968811255826109
+=====================================================
+Time taken to process data:  230.80095314979553
+Time taken for Model:  32.372
+{'contractions': 0,
+ 'lemmatization': 1,
+ 'punctuation_removal': 1,
+ 'stemming': 1,
+ 'stop_words_removal': 0}
+F1-Score: 0.7974512285602059
+=====================================================
+Time taken to process data:  203.38251495361328
+Time taken for Model:  32.12
+{'contractions': 1,
+ 'lemmatization': 0,
+ 'punctuation_removal': 0,
+ 'stemming': 1,
+ 'stop_words_removal': 0}
+F1-Score: 0.8015068849051701
+=====================================================
+Time taken to process data:  228.49460411071777
+Time taken for Model:  33.007
+{'contractions': 1,
+ 'lemmatization': 1,
+ 'punctuation_removal': 0,
+ 'stemming': 1,
+ 'stop_words_removal': 0}
+F1-Score: 0.8014202823244132
+=====================================================
+Time taken to process data:  211.53616285324097
+Time taken for Model:  32.501
+{'contractions': 1,
+ 'lemmatization': 0,
+ 'punctuation_removal': 1,
+ 'stemming': 1,
+ 'stop_words_removal': 0}
+F1-Score: 0.8013855812946525 
+=====================================================
+Time taken to process data:  236.09955477714539
+Time taken for Model:  32.876
+{'contractions': 1,
+ 'lemmatization': 1,
+ 'punctuation_removal': 1,
+ 'stemming': 1,
+ 'stop_words_removal': 0}
+F1-Score: 0.8011400440471563
+=====================================================
+Time taken to process data:  189.04242086410522
+Time taken for Model:  22.608
+{'contractions': 0,
+ 'lemmatization': 0,
+ 'punctuation_removal': 0,
+ 'stemming': 1,
+ 'stop_words_removal': 1}
+F1-Score: 0.8222631711198591
+=====================================================
+Time taken to process data:  181.12606596946716
+Time taken for Model:  22.009
+{'contractions': 0,
+ 'lemmatization': 1,
+ 'punctuation_removal': 0,
+ 'stemming': 1,
+ 'stop_words_removal': 1}
+F1-Score: 0.8271992077900644
+=====================================================
+Time taken to process data:  168.72768425941467
+Time taken for Model:  21.964
+{'contractions': 0,
+ 'lemmatization': 0,
+ 'punctuation_removal': 1,
+ 'stemming': 1,
+ 'stop_words_removal': 1}
+F1-Score: 0.8153755074424898 
+=====================================================
+Time taken to process data:  182.9492211341858
+Time taken for Model:  21.968
+{'contractions': 0,
+ 'lemmatization': 1,
+ 'punctuation_removal': 1,
+ 'stemming': 1,
+ 'stop_words_removal': 1}
+F1-Score: 0.8157794596422985
+=====================================================
+Time taken to process data:  167.47343492507935
+Time taken for Model:  22.443
+{'contractions': 1,
+ 'lemmatization': 0,
+ 'punctuation_removal': 0,
+ 'stemming': 1,
+ 'stop_words_removal': 1}
+F1-Score: 0.8290129816608284  
+=====================================================
+Time taken to process data:  182.5357301235199
+Time taken for Model:  22.605
+{'contractions': 1,
+ 'lemmatization': 1,
+ 'punctuation_removal': 0,
+ 'stemming': 1,
+ 'stop_words_removal': 1}
+F1-Score: 0.8290894107952205 
+=====================================================
+Time taken to process data:  174.19833278656006
+Time taken for Model:  21.999
+{'contractions': 1,
+ 'lemmatization': 0,
+ 'punctuation_removal': 1,
+ 'stemming': 1,
+ 'stop_words_removal': 1}
+F1-Score: 0.8180316061517604
+=====================================================
+Time taken to process data:  184.46637105941772
+Time taken for Model:  22.135
+{'contractions': 1,
+ 'lemmatization': 1,
+ 'punctuation_removal': 1,
+ 'stemming': 1,
+ 'stop_words_removal': 1}
+F1-Score: 0.818228019651025
+=====================================================

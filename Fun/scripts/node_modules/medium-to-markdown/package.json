@@ -1,0 +1,33 @@
+{
+  "name": "medium-to-markdown",
+  "version": "0.0.3",
+  "description": "import a medium URL and convert it to markdown",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "genExample": "npm run convert https://medium.com/@almenon214/keeping-yourself-motivated-as-a-coder-a16a6fcf49c7 > examples/exampleOutput.md"
+  },
+  "author": "SkillFlow, Inc.",
+  "license": "MIT",
+  "keywords": [
+    "medium",
+    "convert",
+    "to",
+    "markdown"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "turndown": "^5.0.3",
+    "turndown-plugin-gfm": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkillFlowHQ/medium-to-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SkillFlowHQ/medium-to-markdown/issues"
+  },
+  "homepage": "https://github.com/SkillFlowHQ/medium-to-markdown#readme"
+}
