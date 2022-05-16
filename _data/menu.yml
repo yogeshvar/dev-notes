@@ -17,5 +17,6 @@ entries:
       - title: "<a href='https://yogeshvar.github.io/git-profile/'>summary of git user profile</a>"
       - title: "<a href='https://beingmani.github.io/MBD-Assignment/assign1/'>basic hadoop & map-reduce</a>"
       - title: "<a href='https://beingmani.github.io/MBD-Assignment/assign2/'>advance hadoop & friend recommendation system</a>"
+      - title: "<a href='https://yogeshvar.github.io/NB-Classifier/'>naive-bayes classifier</a>"
   - title: rss
     url: feed.xml
