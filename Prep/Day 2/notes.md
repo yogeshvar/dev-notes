@@ -28,3 +28,10 @@ print(func_three(a))
 To put it simple, $ log_b(x) = y \implies b^y = x $, but in CS we use base 2 so $ log (N) = y \implies 2^y = N $.
 
 Imagine doubling the size of `N` is still only increasing $ 2^{y+1} $ that is why it is better than `O(n)`
+
+Cheatsheet:
+
+- Am I eliminating half of the input in every step of my function?
+- If size is double, it is only one step operation for it?
+
+Yes, you are working towards `O(log n)`
