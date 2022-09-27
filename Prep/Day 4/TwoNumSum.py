@@ -6,9 +6,6 @@ Difficulty: Easy 🟢
 # Solution One: Classic Iteration to get all possible answers [O(n^2)]
 
 
-from typing import Set
-
-
 def twoNumberSum_One(array, targetSum):
     for idx_i, i in enumerate(array):
         for idx_j, j in enumerate(array):
