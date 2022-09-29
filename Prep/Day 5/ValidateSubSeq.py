@@ -14,10 +14,3 @@ def isValidSubsequence(array: list, sequence: list) -> bool:
         else:
             continue
     return False
-
-
-array = [5, 1, 22, 25, 6, -1, 8, 10]
-sequence = [22, 25, 6, 8]
-
-output = isValidSubsequence(array, sequence)
-print(output)
