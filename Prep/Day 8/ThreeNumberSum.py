@@ -17,6 +17,23 @@ def threeNumberSum(array, targetSum):
                     result.append(sorted(pair))
     return sorted(result)
 
+# Solution 2: O(n^2)
 
-output = threeNumberSum([12, 3, 1, 2, -6, 5, -8, 6], 0)
-print(output)
+
+def threeNumberSum(array, targetSum):
+    result = []
+    array.sort()
+    for a in range(0, len(array) - 1):
+        pointer = a + 1
+        end = len(array) - 1
+        while(pointer < end):
+            sum = array[a] + array[pointer] + array[end]
+            if (sum == targetSum):
+                result.append([array[a], array[pointer], array[end]])
+                pointer += 1
+                end -= 1
+            elif sum < targetSum:
+                pointer += 1
+            else:
+                end -= 1
+    return result
