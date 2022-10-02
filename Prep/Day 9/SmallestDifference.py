@@ -3,6 +3,8 @@ AlgoExpert Problem: Smallest Difference
 Difficulty: Medium 🔵
 """
 
+# Worst Code: O(n^3)
+
 
 def smallestDifference(arrayOne, arrayTwo):
     arrayOne.sort()
