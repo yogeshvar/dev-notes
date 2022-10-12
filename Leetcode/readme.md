@@ -1,1 +1,1 @@
-## Solutions from Leetcode
+## Leetcode Submissions
