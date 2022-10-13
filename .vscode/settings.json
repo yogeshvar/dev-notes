@@ -1,6 +1,9 @@
 {
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": false,
+  "github.copilot.enable": {
+    "*": false
+  },
   "files.associations": {
     "*.inc": "php",
     "ostream": "cpp",
