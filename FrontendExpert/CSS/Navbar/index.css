@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    padding: 18px 27px;
+    border-right: 2px solid white;
+}
+
+li:nth-last-of-type(1) {
+    border: none;
+}
+
+ul:nth-last-child(1) {
+    flex-flow: end;
+}
+
+
+nav {
+    background-color: #6e072d;
+    color: white;
+}
+
+ul>li:hover {
+    background-color: #b90e4d;
+    cursor: pointer;
+}
+
+nav,
+ul {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+* {
+    font-size: 18px;
+}
