@@ -1,0 +1,73 @@
+/* Write your code here. */
+
+#wrapper {
+    background-color: lightgrey;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 0 0 10px 0;
+}
+
+#notifications {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.time {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0;
+    align-self: end;
+    justify-self: end;
+    grid-area: time;
+}
+
+img>p {
+    margin: 10px 0 0 0;
+    margin: 0;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.notification {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-areas:
+        "photo text"
+        "photo time";
+}
+
+img {
+    grid-area: photo;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+p {
+    margin: 0;
+    grid-area: text;
+}
+
+button {
+    background-color: #02203c;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    width: inherit;
+    border-radius: 10px;
+    padding: 10px;
+}
