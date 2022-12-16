@@ -32,3 +32,14 @@ These notes are based on [Stephane Maarek's](https://www.linkedin.com/in/stephan
 ### EC2 Instance Storage
 
 <img src='./EC2-Storage.jpg'>
+<img src='./EC2-Storage-II.jpg'>
+<img src='./EC2-Storage-III.jpg'>
+
+### Load Balancing
+
+<img src='./LB.jpg'>
+<img src='./LB-II.jpg'>
+
+### Auto Scaling & SNI (Server Name Indication)
+
+<img src='./SSL.jpg'>
