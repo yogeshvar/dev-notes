@@ -5,3 +5,30 @@ These notes are based on [Stephane Maarek's](https://www.linkedin.com/in/stephan
 [aireddy73/SAA-C02](https://github.com/aireddy73/SAA-C02)
 [keenanromain/AWS-SAA-C02-Study-Guide](https://github.com/keenanromain/AWS-SAA-C02-Study-Guide)
 [solvimm/aws-solutions-architect-associate-labs](https://github.com/solvimm/aws-solutions-architect-associate-labs)
+
+### Course Outline
+
+<img src='./Course-Structure.jpg'>
+
+### AWS Fundamentals
+
+<img src='./Foundation.jpg'>
+
+### History and Evolution of AWS
+
+<img src='./History.jpg'>
+
+### EC2 - Elastic Compute Cloud
+
+<img src='./EC2.jpg'>
+<img src='./EC2-II.jpg'>
+<img src='./EC2-III.jpg'>
+
+### EC2 - Elastic Compute Cloud - Associate Level
+
+<img src='./EC2-SAC.jpg'>
+<img src='./EC2-SAC-II.jpg'>
+
+### EC2 Instance Storage
+
+<img src='./EC2-Storage.jpg'>
