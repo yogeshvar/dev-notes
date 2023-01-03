@@ -8,8 +8,5 @@ def selection_sort(a):
 
     for i in range(len(a)):
         print("%d" % a[i]),
-    print '\n'
-    print 'Min', a[0],
-    print 'Max', a[len(a) - 1]
 
-
+selection_sort([12, 3, 2, 12, 3, 12])
