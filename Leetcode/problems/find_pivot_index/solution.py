@@ -1,13 +1,6 @@
-class Solution(object):
-    def pivotIndex(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        RSum = sum(nums)
-        LSum = 0
+class Solution:
+    def pivotIndex(self, nums: List[int]) -> int:
         for idx, i in enumerate(nums):
-            if LSum == (RSum - LSum - i):
+            if sum(nums[:idx]) == sum(nums[idx:]) - i:
                 return idx
-            LSum += i
         return -1
