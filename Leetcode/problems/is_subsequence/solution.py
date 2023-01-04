@@ -1,5 +1,5 @@
-class Solution(object):
-    def isSubsequence(self, s, t):
+class Solution:
+    def isSubsequence(self, s: str, t: str) -> bool:
         i, j, count = 0, 0, len(s)
         while i < len(s) and j < len(t):
             if s[i] == t[j]:
