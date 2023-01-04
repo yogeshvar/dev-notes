@@ -1,10 +1,5 @@
-class Solution(object):
-    def isIsomorphic(self, s, t):
-        """
-        :type s: str
-        :type t: str
-        :rtype: bool
-        """
+class Solution:
+    def isIsomorphic(self, s: str, t: str) -> bool:
         hash_map = {}
         for i in range(len(s)):
             if s[i] not in hash_map:
@@ -13,4 +8,3 @@ class Solution(object):
                 return False
         if (len(set(s)) == len(hash_map) and len(set(t)) == len(hash_map)): 
             return True
-                
