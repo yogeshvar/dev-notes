@@ -4,7 +4,6 @@ import "./MemoryGame.css";
 const TILE_COLORS = ["red", "green", "blue", "yellow"];
 
 export default function Memory() {
-  const [isWin, setIsWin] = useState(false);
   const [selected, setSelected] = useState([]);
   const [matched, setMatched] = useState([]);
   const [board, setBoard] = useState(() => [
@@ -12,20 +11,45 @@ export default function Memory() {
     ...shuffle(TILE_COLORS),
   ]);
 
-  function tileClick(i) {}
+  useEffect(() => {
+    if (selected.length < 2) return;
+
+    if (board[selected[0]] === board[selected[1]]) {
+      setMatched([...matched, ...selected]);
+      setSelected([]);
+    } else {
+      const timeoutId = setTimeout(() => setSelected([]), 1000);
+      return () => clearTimeout(timeoutId);
+    }
+  }, [board, matched, selected]);
+
+  function tileClick(i) {
+    if (selected.length >= 2 || selected.includes(i) || matched.includes(i))
+      return;
+    setSelected([...selected, i]);
+  }
+
+  function restart() {
+    setBoard([...shuffle(TILE_COLORS), ...shuffle(TILE_COLORS)]);
+    setSelected([]);
+    setMatched([]);
+  }
+
+  const isWin = matched.length === board.length;
 
   return (
     <>
       <h1>{isWin ? `You Win!` : `Memory`}</h1>
       <div className="board">
         {board.map((tile, i) => {
-          const classes = false ? `tile ${tile}` : "tile";
+          const isFlipped = selected.includes(i) || matched.includes(i);
+          const classes = isFlipped ? `tile ${tile}` : "tile";
           return (
             <div className={classes} key={i} onClick={() => tileClick(i)} />
           );
         })}
       </div>
-      {isWin && <button>Restart</button>}
+      {isWin && <button onClick={() => restart()}>Restart</button>}
     </>
   );
 }
