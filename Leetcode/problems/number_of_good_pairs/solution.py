@@ -1,8 +1,11 @@
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
         count = 0
-        for idx_i, i in enumerate(nums):
-            for idx_j, j in enumerate(nums):
-                if i == j and idx_i < idx_j:
-                    count += 1
+        hashmap = {}
+        for i in nums:
+            if i in hashmap:
+                count += hashmap[i]
+                hashmap[i] += 1
+            else:
+                hashmap[i] = 1
         return count
