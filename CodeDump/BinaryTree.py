@@ -1,17 +1,43 @@
 class TreeNode:
-    def __init__(self, val):
+    def __init__(self, val=0, left=None, right=None):
         self.val = val
-        self.l = None
-        self.r = None
+        self.left = left
+        self.right = right
+
+def bt_height(root):
+    if root is None:
+        return 0
+    leftHeight = bt_height(root.l)
+    rightHeight = bt_height(root.r)
+    return max(leftHeight, rightHeight) + 1
+
+def bt_min(root):
+    if root is None:
+        return 0
+    if not root.left and not root.right:
+        return 1
+    if not root.left:
+        return bt_min(root.right) + 1
+    if not root.right:
+        return bt_min(root.left) + 1
+    return min(bt_min(root.left), bt_min(root.right)) + 1
+
+def path_sum(root, target):
+    if root is None:
+        return False
+    if not root.left and not root.right:
+        return root.val == target
+    target -= root.val
+    return path_sum(root.left, target) or path_sum(root.right, target)
 
 def add_leaf(root, leaf):
     if root is None:
         root = TreeNode(leaf)
         return root
     if leaf < root.val:
-        root.l = add_leaf(root.l, leaf)
+        root.left = add_leaf(root.left, leaf)
     else:
-        root.r = add_leaf(root.r, leaf)
+        root.right = add_leaf(root.right, leaf)
     return root
 
 def get_min(root):
@@ -64,11 +90,23 @@ def delete(root, key):
         root.r = delete(root.r, tmp.val)
     return root
 
-def display(root):
+def inorder(root):
     if root:
-        display(root.l)
+        inorder(root.left)
         print(root.val)
-        display(root.r)
+        inorder(root.right)
+
+def preorder(root):
+    if root:
+        print(root.val)
+        preorder(root.right)
+        preorder(root.left)
+
+def postorder(root):
+    if root:
+        postorder(root.right)
+        postorder(root.left)
+        print(root.val)
 
 r = TreeNode(50)
 r = add_leaf(r, 30)
@@ -78,11 +116,5 @@ r = add_leaf(r, 70)
 r = add_leaf(r, 60)
 r = add_leaf(r, 90)
 
-display(r)
+inorder(r)
 print('====')
-
-search(r, 30)
-
-delete(r, 90)
-print('====')
-display(r)
