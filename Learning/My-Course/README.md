@@ -1,1 +1,0 @@
-# Training Sessions: Hands-on
