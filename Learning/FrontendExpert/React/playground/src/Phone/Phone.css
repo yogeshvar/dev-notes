@@ -1,0 +1,27 @@
+input:not([type='button'], [type='submit']) {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #828080;
+    font-size: 18px;
+    outline: none;
+}
+
+
+button, input[type='button'], input[type='submit'] {
+    margin-left: 10px;
+    width: 100px;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #02203c;
+    color: white;
+    transition: 0.5s;
+}
+
+button:disabled, input[type='button']:disabled, input[type='submit']:disabled {
+    background-color: grey;
+    color: black;
+    cursor: not-allowed;
+}

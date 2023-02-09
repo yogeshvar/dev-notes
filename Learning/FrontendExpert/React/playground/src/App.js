@@ -4,6 +4,7 @@ import TipCalculator from "./TipCalculator/TipCalculator";
 import Memory from "./MemoryGame/MemoryGame";
 import CryptoPrices from "./CryptoPrices/Main";
 import QuestionList from "./QuestionList/Main";
+import Phone from "./Phone/Phone";
 
 const { Title } = Typography;
 
@@ -11,7 +12,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <Title level={3}>Tip Calculator</Title>
+        {/* <Title level={3}>Tip Calculator</Title>
         <TipCalculator />
         <Divider dashed />
         <Title level={3}>Memory Game</Title>
@@ -21,7 +22,8 @@ function App() {
         <QuestionList />
         <Divider dashed />
         <Title level={3}>Crypto List</Title>
-        <CryptoPrices />
+        <CryptoPrices /> */}
+        <Phone />
       </div>
     </>
   );
