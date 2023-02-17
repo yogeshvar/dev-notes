@@ -6,3 +6,4 @@ moss.pl
 Fun/journalscripts/*
 Journal/main.md
 _site/
+__pycache__/
