@@ -4,6 +4,9 @@ pythonenv3.8
 .DS_Store
 moss.pl
 Fun/journalscripts/*
+Interview-Dairy/*
 Journal/main.md
 _site/
 __pycache__/
+
+

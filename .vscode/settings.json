@@ -1,9 +1,6 @@
 {
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
-  "github.copilot.enable": {
-    "*": false
-  },
   "files.associations": {
     "*.inc": "php",
     "ostream": "cpp",
@@ -95,5 +92,5 @@
     "DS&Algo",
     "Competitive-Progs",
     "CrackingCodingInterview"
-  ],
+  ]
 }
