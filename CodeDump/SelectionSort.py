@@ -10,3 +10,4 @@ def selection_sort(a):
         print("%d" % a[i]),
 
 selection_sort([12, 3, 2, 12, 3, 12])
+
