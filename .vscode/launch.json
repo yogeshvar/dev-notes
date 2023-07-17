@@ -4,15 +4,41 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-  {
+    {
+      "type": "java",
+      "name": "MiddleFunction",
+      "request": "launch",
+      "mainClass": "Arrays.MAANG.MiddleFunction",
+      "projectName": "dev-notes_597df735"
+    },
+    {
+      "type": "java",
+      "name": "AverageTemperatures",
+      "request": "launch",
+      "mainClass": "ArrayProjects.AverageTemperatures",
+      "projectName": "dev-notes_597df735"
+    },
+    {
+      "type": "java",
+      "name": "TwoDimensionalArray",
+      "request": "launch",
+      "mainClass": "TwoDimensionalArray",
+      "projectName": "dev-notes_597df735"
+    },
+    {
+      "type": "java",
+      "name": "SingleDimensionArray",
+      "request": "launch",
+      "mainClass": "SingleDimensionArray",
+      "projectName": "dev-notes_597df735"
+    },
+    {
       "name": "Launch Program",
       "program": "${workspaceFolder}/Workflows/journalEnc.js",
       "request": "launch",
-      "skipFiles": [
-          "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "type": "node"
-  },
+    },
     {
       "type": "java",
       "name": "Launch MinCoins",
