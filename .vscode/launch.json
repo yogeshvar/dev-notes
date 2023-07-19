@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MissingNumber",
+      "request": "launch",
+      "mainClass": "Arrays.MAANG.MissingNumber",
+      "projectName": "dev-notes_597df735"
+    },
+    {
+      "type": "java",
       "name": "FindTopTwoScores",
       "request": "launch",
       "mainClass": "Arrays.MAANG.FindTopTwoScores",
