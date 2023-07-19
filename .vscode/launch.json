@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindTopTwoScores",
+      "request": "launch",
+      "mainClass": "Arrays.MAANG.FindTopTwoScores",
+      "projectName": "dev-notes_597df735"
+    },
+    {
+      "type": "java",
+      "name": "DiagonalSum",
+      "request": "launch",
+      "mainClass": "Arrays.MAANG.DiagonalSum",
+      "projectName": "dev-notes_597df735"
+    },
+    {
+      "type": "java",
       "name": "MiddleFunction",
       "request": "launch",
       "mainClass": "Arrays.MAANG.MiddleFunction",
