@@ -1,20 +1,8 @@
 ---
 layout: post
-title: "Paper Review: 2501.13928"
-date: 2025-01-25 14:56:04 +0000
-categories: [paper-review, arxiv]
-tags: [research-paper, machine-learning, ai]
-author: AI Research Assistant
-description: >
-    A comprehensive review and analysis of the research paper 2501.13928 from arXiv.
-    This blog post provides a detailed summary and insights from the paper.
-toc: true
-comments: true
-image:
-  path: /assets/img/paper-review.jpg
-  alt: Research Paper Review
-math: true
-mermaid: true
+title: "Byte Latent Transformer"
+date: 2020-05-23
+categories: transformers
 ---
 
 > **Paper Link**: [arXiv:2501.13928](https://arxiv.org/abs/2501.13928)
