@@ -14,10 +14,10 @@ entries:
       show_more_url: archive.html
   - title: medium posts
     entries:
-      - title: "<a href="https://medium.com/@yogeshvar/miniforge-miniconda-on-m1-4aedfe3263bb">Miniforge & Miniconda on M1</a>"
-      - title: "<a href="https://medium.com/macoclock/cache-issues-with-telegram-on-mac-os-f293fdbe7687">Cache issues with Telegram on Mac OS</a>"
-      - title: "<a href="https://medium.com/@yogeshvar/git-emojis-are-fun-4217911e2bf0">Git emojis are fun</a>"
-      - title: "<a href="https://medium.com/@yogeshvar/best-multiplayer-hacking-game-ever-a61f2e17b5d8">Best Multiplayer Hacking Game Ever</a>"
+      - title: "<a href='https://medium.com/@yogeshvar/miniforge-miniconda-on-m1-4aedfe3263bb'>Miniforge & Miniconda on M1</a>"
+      - title: "<a href='https://medium.com/macoclock/cache-issues-with-telegram-on-mac-os-f293fdbe7687'>Cache issues with Telegram on Mac OS</a>"
+      - title: "<a href='https://medium.com/@yogeshvar/git-emojis-are-fun-4217911e2bf0'>Git emojis are fun</a>"
+      - title: "<a href='https://medium.com/@yogeshvar/best-multiplayer-hacking-game-ever-a61f2e17b5d8'>Best Multiplayer Hacking Game Ever</a>"
   - title: assignment posts
     entries: 
       - title: "<a href='https://yogeshvar.github.io/git-profile/'>summary of git user profile</a>"
