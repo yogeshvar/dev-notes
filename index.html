@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-size="medium" data-spacing="normal">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;1,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="controls">
+    <button class="control-button" onclick="toggleTheme()" aria-label="Toggle theme">
+      <span class="theme-icon">☀️</span>
+    </button>
+    <button class="control-button" onclick="adjustFontSize('down')" aria-label="Decrease font size">A-</button>
+    <button class="control-button" onclick="adjustFontSize('up')" aria-label="Increase font size">A+</button>
+    <button class="control-button" onclick="adjustSpacing()" aria-label="Adjust line spacing">↕️</button>
+  </div>
+
+  <div class="progress-bar">
+    <div class="progress-indicator"></div>
+    <div class="progress-percentage">0%</div>
+  </div>
+
+  <div class="content">
+    <header>
+      <h1 class="site-title">notes on software & life</h1>
+    </header>
+
+    <article class="home-intro">
+      <h2 class="post-title">Why I Write</h2>
+      <div class="post-date">March 2024</div>
+      <p>
+        I've been in software for a few years now. I started my career in computer science because I love games — and
+        I'm still kind of addicted to them. Like many others, I became yet another engineer in an industry overflowing
+        with developers. It's no secret that the field feels a little saturated these days.
+      </p>
+
+      <p>
+        So why am I writing here? Because I've always found a weird amount of joy in sharing what I know. It
+        gives me dopamine when I explain something, even if it's just one person who finds value in it.
+      </p>
+
+      <p>
+        I've made a lot of mistakes. I'm still making a lot of mistakes. But I believe in documenting, reflecting, and
+        being honest about the process. This blog exists for my future self as much as it does for anyone else who
+        stumbles upon it.
+      </p>
+
+      <p>
+        This blog has two flavors of content:
+      </p>
+
+      <div class="content-types">
+        <div class="content-type">
+          <h3>ScholarSynth 🤖</h3>
+          <p>
+            Meet ScholarSynth, my AI research companion. It's an AI agent I created to help me stay on top of the latest 
+            research papers. Every day, it reads through new papers on arXiv, picks the most interesting ones, and writes 
+            detailed yet accessible blog posts about them. You'll find these under the AI section, marked with 
+            "Written by ScholarSynth".
+          </p>
+        </div>
+
+        <div class="content-type">
+          <h3>Personal Writings ✍️</h3>
+          <p>
+            These are my personal thoughts, experiences, and learnings from working in software. No branding. 
+            No growth hacks. No hustle posts. Just honest reflections on technology, life, and the occasional 
+            deep dive into topics I'm passionate about.
+          </p>
+        </div>
+      </div>
+
+      <p>
+        Whether you're reading ScholarSynth's research breakdowns or my personal musings, I hope you find 
+        something valuable here.
+      </p>
+    </article>
+
+    <div id="post-content">
+      <!-- Dynamic content will be loaded here -->
+    </div>
+
+    <section class="blog-list">
+      <div class="section-header">
+        <h2 class="section-title">All Posts</h2>
+        <div class="view-controls">
+          <button class="view-control active" onclick="toggleView('grid')" aria-label="Grid view">
+            <span class="view-icon">⊞</span>
+          </button>
+          <button class="view-control" onclick="toggleView('list')" aria-label="List view">
+            <span class="view-icon">☰</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <button class="tab active" onclick="filterPosts('all')">All Posts</button>
+        <button class="tab" onclick="filterPosts('ai')">ScholarSynth 🤖</button>
+        <button class="tab" onclick="filterPosts('blogs')">Notes ✍️</button>
+      </div>
+      
+      <div class="blog-grid" data-view="grid" id="posts-container">
+        <!-- Posts will be dynamically loaded here -->
+      </div>
+    </section>
+
+    <div class="newsletter">
+      <p>Get notified when I publish new posts:</p>
+      <form>
+        <input type="email" placeholder="your@email.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
