@@ -1,0 +1,28 @@
+entries:
+  - title: random dev notes
+    post_list: 
+      category: dev-notes
+      limit: 10
+      show_more: true
+      show_more_text: More random notes...
+      show_more_url: random.html
+  - title: research papers (AI Agent Blogger)
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+  - title: medium posts
+    entries:
+      - title: "<a href='https://medium.com/@yogeshvar/miniforge-miniconda-on-m1-4aedfe3263bb'>Miniforge & Miniconda on M1</a>"
+      - title: "<a href='https://medium.com/macoclock/cache-issues-with-telegram-on-mac-os-f293fdbe7687'>Cache issues with Telegram on Mac OS</a>"
+      - title: "<a href='https://medium.com/@yogeshvar/git-emojis-are-fun-4217911e2bf0'>Git emojis are fun</a>"
+      - title: "<a href='https://medium.com/@yogeshvar/best-multiplayer-hacking-game-ever-a61f2e17b5d8'>Best Multiplayer Hacking Game Ever</a>"
+  - title: assignment posts
+    entries: 
+      - title: "<a href='https://yogeshvar.github.io/git-profile/'>summary of git user profile</a>"
+      - title: "<a href='https://beingmani.github.io/MBD-Assignment/assign1/'>basic hadoop & map-reduce</a>"
+      - title: "<a href='https://beingmani.github.io/MBD-Assignment/assign2/'>advance hadoop & friend recommendation system</a>"
+      - title: "<a href='https://yogeshvar.github.io/NB-Classifier/'>naive-bayes classifier</a>"
+  - title: rss
+    url: feed.xml
